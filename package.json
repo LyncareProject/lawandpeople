@@ -1,11 +1,10 @@
 {
   "name": "basecode",
   "version": "1.0.0",
-  "description": "강의의 백엔드 중간 프로젝트에 해당하는 저장소입니다.",
-  "main": "src/main.js",
+  "description": "server",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon src/main.js"
+    "start": "nodemon src/main.js"
   },
   "author": "",
   "license": "ISC",
