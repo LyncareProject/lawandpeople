@@ -9,23 +9,24 @@ const Introduce =()=>{
       company : '로톡뉴스',
       createdAt : ' 2022.08.24',
       title : '편의점 주인 폭행해 ‘실명 위기’ 만든 중학생…위자료는 얼마?',
-      url : '/'
+      url : 'https://post.naver.com/viewer/postView.naver?volumeNo=34363166&memberNo=47450257'
     }, {
-      company : '법률방송뉴스',
-      createdAt : ' 2022.08.24',
-      title : '57년 전 ‘혀 절단’ 재심청구 기각… 박준영 변호사 “검찰총….',
-      url : '/'
-    },{
       company : '로톡뉴스',
-      createdAt : ' 2022.08.24',
+      createdAt : ' 2022.03.08',
       title : '공무원 실수로 사라진 ‘내 투표권’…국가가 보상해야….',
-      url : '/'
+      url : 'https://lawtalknews.co.kr/article/7XNEMIBOB9LO'
     },{
       company : 'JTBC',
-      createdAt : ' 2022.08.24',
+      createdAt : ' 2021.08.15',
       title : '[이런법이] 성범죄 맞서다 가해자 다치면?…’정당방위’ 달….',
-      url : '/'
-    },])
+      url : 'https://news.nate.com/view/20210815n14025'
+    },{
+      company : '법률방송뉴스',
+      createdAt : ' 2021.02.18',
+      title : '57년 전 ‘혀 절단’ 재심청구 기각… 박준영 변호사 “검찰총….',
+      url : 'https://www.ltn.kr/news/articleView.html?idxno=30914'
+    },
+  ])
     const [ records, setRecords ] = useState([{
       years : '2008',
       contents : '성균관대학교 법학과 학사 졸업'
@@ -110,7 +111,7 @@ const News =({ news })=>{
                   <p>{ a.company }</p>
                   <p>{ a.createdAt }</p>
                 </div>
-                <p className="newsBody">{ a.title }</p>
+                <a href={ a.url } className="newsBody">{ a.title }</a>
               </div>
             )
           })
