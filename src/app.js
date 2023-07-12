@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }))
 const apiRouter = require('./routes/index');
 
 // React 빌드된 정적 파일을 'build' 디렉토리에서 제공합니다.
-app.use(express.static(path.join(__dirname, '../client/build')));
+app.use(express.static(path.join(__dirname, '/build')));
 app.use(express.static(path.join(__dirname, '../public')));
 
 app.get('/', (req, res) => {
