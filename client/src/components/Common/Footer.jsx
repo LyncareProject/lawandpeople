@@ -9,7 +9,7 @@ const Footer = () => {
             <p>사업자번호 : 178-88-01412</p>
             <p>대표 변호사 : 우희창 | 관리자 : 전재원 과장 </p>
             <p>연락처 : 032-873-2211 | Fax : 032-873-5211</p>
-            <p>이메일 : imwhc@naver.com , 법무법인메일(cs@llc.com)</p>
+            <p>이메일 : imwhc@naver.com</p>
             <p>© 2023 Law & People. All Rights Reserved.</p>
         </div>
       </div>
