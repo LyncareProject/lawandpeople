@@ -169,4 +169,7 @@ select {
   .PostContent_PostDocContents__9MQL6 {
     padding: 0 !important;
   }
+  .PostContent_PostDocContents__9MQL6 img {
+    max-width: 100%;
+  }
 }
