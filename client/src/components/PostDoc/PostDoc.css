@@ -70,4 +70,7 @@
     text-align: initial;
     line-height: 1.5em;
 }
+.PostDoc .Section03 img {
+    max-width: 100%;
+}
 

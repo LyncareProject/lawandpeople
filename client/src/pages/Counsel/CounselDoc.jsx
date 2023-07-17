@@ -86,7 +86,7 @@ const Contents = ({ post, navigate, postId, deletePost, auth })=>{
             <div className="Section02">         
                 <h2>{post.title}</h2>
                 <p className="editor">작성자 : {post.name}</p>
-                <p className="editor">전화번호 : {post.phone}</p>
+                <a className="editor" href={`tel:${post.phone}`}>전화번호 : {post.phone}</a>
                 <div className="editDate">
                     <p className="createdAt">작성일 : {post.createdAt}</p>
                     {

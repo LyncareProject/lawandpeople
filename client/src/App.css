@@ -165,5 +165,8 @@ select {
   }
   .ql-toolbar.ql-snow + .ql-container.ql-snow {
     border-top: 1px solid #ccc !important;
-}
+  }
+  .PostContent_PostDocContents__9MQL6 {
+    padding: 0 !important;
+  }
 }

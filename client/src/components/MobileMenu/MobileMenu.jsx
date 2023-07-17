@@ -7,7 +7,7 @@ const MobileMenu = ()=>{
     return(
         <div className="MobileMenu">
             <div>
-                <a href="tel:010-6217-9911">
+                <a href="tel:032-873-2211">
                     <FontAwesomeIcon icon={ faPhone } />
                     <p>전화 상담</p>
                 </a>

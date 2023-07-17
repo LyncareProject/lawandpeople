@@ -51,7 +51,7 @@ const Address = ()=>{
         <div className="AddressWrap">
             <p className="AddressText">인천광역시 미추홀구 소성로 159 (학익동) 201호</p>
             <div>
-              <p className="PhoneNum">050-7725-0166</p>
+              <p className="PhoneNum">010-6217-9911</p>
               <CopyToClipboard text="인천광역시 미추홀구 소성로 159 (학익동) 201호" onCopy={() => alert("클립보드에 복사되었습니다.")}>
                 <text className="CopyBtn">주소 복사하기</text>
               </CopyToClipboard>
