@@ -22,7 +22,7 @@ const Video = ({ isLogined })=>{
 
     return(
         <>
-            <Banner />
+            <Banner banner='banner06'/>
             <div className="container">
                 <SearchWrap />
                 <Menu />

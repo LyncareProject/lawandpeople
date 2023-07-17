@@ -33,4 +33,7 @@
         max-width: 100%;
         height: auto;
     }
+    .banner06Img {
+        max-width: 65% !important;
+    }
 }
