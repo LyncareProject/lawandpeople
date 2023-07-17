@@ -28,6 +28,7 @@ import Video from './pages/Video/Video';
 import About from './pages/About/About';
 import SideBar from './components/SideBar/SideBar';
 import { useState } from 'react';
+import MobileMenu from './components/MobileMenu/MobileMenu';
 
 function App() {
   const isLogined = useSelector((state) => state.user.value.isLogined)
@@ -75,6 +76,7 @@ function App() {
 
         <Route path='/search' element={ <Search />} />
       </Routes>
+      <MobileMenu />
       <Footer />
     </div>
   );

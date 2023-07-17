@@ -160,4 +160,10 @@ select {
   .AdminWriteBtn {
     margin-right: 0px;
   }
+  .ql-toolbar {
+    display: none !important;
+  }
+  .ql-toolbar.ql-snow + .ql-container.ql-snow {
+    border-top: 1px solid #ccc !important;
+}
 }

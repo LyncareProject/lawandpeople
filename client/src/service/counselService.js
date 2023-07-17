@@ -4,6 +4,7 @@ import baseUrl from './apiConfig';
 export const fetchCounsel = () => {
   return axios.get(`${baseUrl}/counsel`);
 };
+
 export const createCounsel = ({
             category,
             title,

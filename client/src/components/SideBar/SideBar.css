@@ -1,5 +1,5 @@
 .SideBar {
-    position: absolute;
+    position: fixed;
     width: 300px;
     left: -301px;
     height: 100%;
