@@ -209,6 +209,9 @@
         width: calc(50% - 5px);
         margin-bottom: 10px;
     }
+    .Main .Counsel > div > img {
+        width: 120px;
+    }
     .Main .Address .AddressText {
         font-size: 10px;
     }
