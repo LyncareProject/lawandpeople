@@ -6,20 +6,6 @@ const path = require('path');
 
 const app = express()
 
-// HTTP로 접속한 경우, HTTPS로 리다이렉트
-app.use((req, res, next) => {
-  if (req.secure) {
-    next();
-  } else {
-    // @ts-ignore
-    const httpsHost = req.headers.host.replace(/:\d+$/, ''); // 포트 번호 제거
-    console.log(httpsHost)
-    const httpsUrl = `https://${httpsHost}${req.url}`;
-    console.log(httpsUrl)
-    res.redirect(301, httpsUrl);
-  }
-});
-
 app.use(cors());
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
