@@ -39,7 +39,7 @@ const Board = ({ isLogined, value })=>{
                     .then(response=>{
                         const originData = response.data
                         const result = originData.filter(data=>{
-                            data.category.includes(keyword) || data.title.includes(keyword)
+                            return data.category.includes(keyword) || data.title.includes(keyword)
                         })
                         setData(result)
                     })
@@ -47,7 +47,7 @@ const Board = ({ isLogined, value })=>{
             }
             LoadData();
         }
-    }, [value])
+    }, [value, keyword])
 
     const indexOfLastPost = currentPage * postPerPage; //1*10 = 10번 포스트
     const indexOfFirstPost = indexOfLastPost - postPerPage; //10-10 = 0번 포스트

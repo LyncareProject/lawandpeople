@@ -5,7 +5,6 @@ import { useState } from "react";
 const SearchWrap =({ state })=>{
     const navigate = useNavigate();
     const [ input, setInput ] = useState('');
-    console.log(state)
     const handleInput = (e)=>{
         setInput(e.target.value)
     }

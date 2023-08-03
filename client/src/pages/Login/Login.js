@@ -19,7 +19,7 @@ const Login = ()=>{
             [ e.target.name ] : e.target.value
         })
     }
-    console.log(input)
+
     const LoginBtn = ()=>{
         signin({ id, password })
         .then(result=>{
