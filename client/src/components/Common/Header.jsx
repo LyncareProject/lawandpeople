@@ -16,6 +16,7 @@ const Header = ({ sideBar, setSideBar })=>{
                     <img src={ mainlogo } alt="mainlogo" />
                 </Link>  
                 <div className="menu">
+                    <Link to='/counsel/write'>상담 신청</Link>
                     <Link to='/counsel'>상담 사례</Link>
                     <Link to='/cases'>해결 사례</Link>
                     <Link to='/guide'>법률 가이드</Link>

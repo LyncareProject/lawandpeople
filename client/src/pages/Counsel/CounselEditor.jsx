@@ -84,7 +84,7 @@ const CounselEditor = ()=>{
                     <EditorComponent  content={content} setContent={setContent}/>
                 </div>
                 <div className="BtnWrap">
-                    <button className="Btn" onClick={ sendBtn }>상담 신청하기</button>
+                    <button className="Btn" onClick={ sendBtn }>신청</button>
                     <button className="Btn" onClick={ cancleBtn }>취소</button>
                 </div>
             </div>
