@@ -4,7 +4,7 @@ import Banner from "../../components/Banner/Banner";
 import './CounselDoc.css'
 import { deleteCounsel, readCounsel } from "../../service/counselService";
 
-const CounselDoc = ()=>{
+const CounselDoc = ({ isLogined })=>{
     const { postId } = useParams();
     const [ post, setPost ] = useState({})
     const [ auth, setAuth ] = useState(false)
@@ -54,7 +54,7 @@ const CounselDoc = ()=>{
         <Banner banner='banner02'/>
         <div className="container">
             {
-                auth
+                auth || isLogined
                 ? <Contents post = { post } navigate = {navigate} postId={ postId } deletePost={ deletePost }  auth={ auth }/>
                 : <InputPassWord handlePassword={ handlePassword } authBtn={ authBtn }/>
             }
